@@ -23,5 +23,14 @@ Now you can start installing the dependencies in your environment or if you are 
 #### $ pip install -r requirements.txt
 If you need to general or update the requirements.txt use the following command:
 #### $ pip freeze > requirements.txt
+## FastAPI
+### - Installation
+#### $ pip install fastapi
+You can install all the dependencies you need, and update your requirements.txt
+### - Code
+Code your application in the main.py file and run:
+
+#### $ python -m uvicorn main:app --reload
+You will start the server with uvicorn, you will be able to use your end points. Find your methods in the path 127.0.0.1:8000/docs
 
 
