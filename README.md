@@ -18,7 +18,6 @@ you will need to log into your PowerShell terminal with administrator permission
 you will see the local machine undefined 
 #### $ Set-ExecutionPolicy RemoteSigned -Force
 and give permissions to the powershell to run scripts in gpedit.msc
-## End of the note
 Now you can start installing the dependencies in your environment or if you are working on a team project, normally the dependencies will be in the requirements.txt file, you can use the following command:
 #### $ pip install -r requirements.txt
 If you need to general or update the requirements.txt use the following command:
